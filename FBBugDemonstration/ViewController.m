@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <TestPod/TestPod-Swift.h>
 
 @interface ViewController ()
 

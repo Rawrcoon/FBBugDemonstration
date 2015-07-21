@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>49882795-E4CA-4F79-9636-AC55E48AD609</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FBBugDemonstration</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B9CAE9988CFCDB8D97F615DEDF141203500E0744</key>
+		<string>github.com:Rawrcoon/FBBugDemonstration.git</string>
+		<key>CA7D26B90473709631621268F3FD30CF8EB242C1</key>
+		<string>github.com:fleshgolem/TestPod.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FBBugDemonstration.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B9CAE9988CFCDB8D97F615DEDF141203500E0744</key>
+		<string>..</string>
+		<key>CA7D26B90473709631621268F3FD30CF8EB242C1</key>
+		<string>../../TestPod</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Rawrcoon/FBBugDemonstration.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B9CAE9988CFCDB8D97F615DEDF141203500E0744</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B9CAE9988CFCDB8D97F615DEDF141203500E0744</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FBBugDemonstration</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA7D26B90473709631621268F3FD30CF8EB242C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestPod</string>
+		</dict>
+	</array>
+</dict>
+</plist>
