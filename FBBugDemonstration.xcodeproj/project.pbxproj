@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D4399B9FED8AA40E0FD3CA9 /* Pods_FBBugDemonstration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EA642912A3D33460521B10 /* Pods_FBBugDemonstration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		B2AC3AD31B5E54FE00EBE27C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AC3AD21B5E54FE00EBE27C /* main.m */; };
 		B2AC3AD61B5E54FE00EBE27C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AC3AD51B5E54FE00EBE27C /* AppDelegate.m */; };
 		B2AC3AD91B5E54FE00EBE27C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AC3AD81B5E54FE00EBE27C /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		B2AC3ADE1B5E54FE00EBE27C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AC3ADD1B5E54FE00EBE27C /* Images.xcassets */; };
 		B2AC3AE11B5E54FE00EBE27C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2AC3ADF1B5E54FE00EBE27C /* LaunchScreen.xib */; };
 		B2AC3AED1B5E54FE00EBE27C /* FBBugDemonstrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AC3AEC1B5E54FE00EBE27C /* FBBugDemonstrationTests.m */; };
+		EA8CB96BB3AF0D05E444A5F6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE4F0AB128B169BED82899 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22CE4F0AB128B169BED82899 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3EAF21D2FD2C8054CFEC58 /* Pods-FBBugDemonstration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBBugDemonstration.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBBugDemonstration/Pods-FBBugDemonstration.release.xcconfig"; sourceTree = "<group>"; };
+		A0C2682EBF6261B2B6A4D76D /* Pods-FBBugDemonstration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBBugDemonstration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBBugDemonstration/Pods-FBBugDemonstration.debug.xcconfig"; sourceTree = "<group>"; };
 		B2AC3ACD1B5E54FD00EBE27C /* FBBugDemonstration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBBugDemonstration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AC3AD11B5E54FE00EBE27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AC3AD21B5E54FE00EBE27C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		B2AC3AE61B5E54FE00EBE27C /* FBBugDemonstrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBBugDemonstrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AC3AEB1B5E54FE00EBE27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AC3AEC1B5E54FE00EBE27C /* FBBugDemonstrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBBugDemonstrationTests.m; sourceTree = "<group>"; };
+		C2EA642912A3D33460521B10 /* Pods_FBBugDemonstration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBBugDemonstration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4399B9FED8AA40E0FD3CA9 /* Pods_FBBugDemonstration.framework in Frameworks */,
+				EA8CB96BB3AF0D05E444A5F6 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +68,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC886EB44D6CBB127776B6E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2EA642912A3D33460521B10 /* Pods_FBBugDemonstration.framework */,
+				22CE4F0AB128B169BED82899 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B2AC3AC41B5E54FD00EBE27C = {
 			isa = PBXGroup;
 			children = (
 				B2AC3ACF1B5E54FD00EBE27C /* FBBugDemonstration */,
 				B2AC3AE91B5E54FE00EBE27C /* FBBugDemonstrationTests */,
 				B2AC3ACE1B5E54FD00EBE27C /* Products */,
+				CA1B44F413FC71F5F30D4A75 /* Pods */,
+				AC886EB44D6CBB127776B6E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +138,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CA1B44F413FC71F5F30D4A75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0C2682EBF6261B2B6A4D76D /* Pods-FBBugDemonstration.debug.xcconfig */,
+				7D3EAF21D2FD2C8054CFEC58 /* Pods-FBBugDemonstration.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2AC3AF01B5E54FE00EBE27C /* Build configuration list for PBXNativeTarget "FBBugDemonstration" */;
 			buildPhases = (
+				507A11D3A4D73C3F5FD39B65 /* Check Pods Manifest.lock */,
 				B2AC3AC91B5E54FD00EBE27C /* Sources */,
 				B2AC3ACA1B5E54FD00EBE27C /* Frameworks */,
 				B2AC3ACB1B5E54FD00EBE27C /* Resources */,
+				2F95A050D1C935BE83ABDD47 /* Embed Pods Frameworks */,
+				38C457B1547FF12CD0E783BC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +245,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F95A050D1C935BE83ABDD47 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C457B1547FF12CD0E783BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBBugDemonstration/Pods-FBBugDemonstration-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		507A11D3A4D73C3F5FD39B65 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B2AC3AC91B5E54FD00EBE27C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -299,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -311,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -337,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,8 +428,10 @@
 		};
 		B2AC3AF11B5E54FE00EBE27C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C2682EBF6261B2B6A4D76D /* Pods-FBBugDemonstration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				INFOPLIST_FILE = FBBugDemonstration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,8 +440,10 @@
 		};
 		B2AC3AF21B5E54FE00EBE27C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3EAF21D2FD2C8054CFEC58 /* Pods-FBBugDemonstration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				INFOPLIST_FILE = FBBugDemonstration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +503,7 @@
 				B2AC3AF21B5E54FE00EBE27C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2AC3AF31B5E54FE00EBE27C /* Build configuration list for PBXNativeTarget "FBBugDemonstrationTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +512,7 @@
 				B2AC3AF51B5E54FE00EBE27C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
