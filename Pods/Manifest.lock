@@ -25,7 +25,6 @@ PODS:
     - FBSDKShareKit
 
 DEPENDENCIES:
-  - Bolts
   - TestPod (from `TestPod/TestPod.podspec`)
 
 EXTERNAL SOURCES:

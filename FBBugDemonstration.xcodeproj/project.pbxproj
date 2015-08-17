@@ -254,7 +254,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBBugDemonstration/Pods-FBBugDemonstration-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		38C457B1547FF12CD0E783BC /* Copy Pods Resources */ = {

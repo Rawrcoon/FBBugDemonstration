@@ -29,40 +29,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>TestPod.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2AE75D031DABCA3D3AB8DAEBE3D495EF</key>
+		<key>4F0954F3FD4B1DB4DF0D421329A13CB6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2B0A69A3EB9D6ED1DE1FAAF3BDD5B40B</key>
+		<key>5A141BD79A000137CB258D3F5330F28C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>85429E137A7926FB99D4B13F1BD30CFC</key>
+		<key>80DE959B9B853F75D1B4860BE95C866D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CC8EF5C5C537F68737152651DBD40181</key>
+		<key>A5EC252AA5AD514DB36BB8FDC437237D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DA0BE86460517661D5004765F947C96F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E2CF9CB29CFCD9B6100E7AEE1E03A464</key>
+		<key>E34724078EFB57A7433EB4CB9EE60E10</key>
 		<dict>
 			<key>primary</key>
 			<true/>
