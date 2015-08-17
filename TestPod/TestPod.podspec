@@ -20,8 +20,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/fleshgolem/TestPod.git", :tag => "0.0.1" }
   s.source_files  = "TestClass.swift"
 
-  s.dependency "FBSDKCoreKit", "4.1"
-  s.dependency "FBSDKLoginKit", "4.1"
-  s.dependency "FBSDKShareKit", "4.1"
+  s.dependency "Bolts"
+  s.dependency "FBSDKCoreKit"
+  s.dependency "FBSDKLoginKit"
+  s.dependency "FBSDKShareKit"
 
 end

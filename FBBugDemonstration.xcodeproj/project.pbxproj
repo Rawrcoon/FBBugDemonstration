@@ -15,7 +15,6 @@
 		B2AC3ADE1B5E54FE00EBE27C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AC3ADD1B5E54FE00EBE27C /* Images.xcassets */; };
 		B2AC3AE11B5E54FE00EBE27C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2AC3ADF1B5E54FE00EBE27C /* LaunchScreen.xib */; };
 		B2AC3AED1B5E54FE00EBE27C /* FBBugDemonstrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AC3AEC1B5E54FE00EBE27C /* FBBugDemonstrationTests.m */; };
-		EA8CB96BB3AF0D05E444A5F6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE4F0AB128B169BED82899 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22CE4F0AB128B169BED82899 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3EAF21D2FD2C8054CFEC58 /* Pods-FBBugDemonstration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBBugDemonstration.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBBugDemonstration/Pods-FBBugDemonstration.release.xcconfig"; sourceTree = "<group>"; };
 		A0C2682EBF6261B2B6A4D76D /* Pods-FBBugDemonstration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBBugDemonstration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBBugDemonstration/Pods-FBBugDemonstration.debug.xcconfig"; sourceTree = "<group>"; };
 		B2AC3ACD1B5E54FD00EBE27C /* FBBugDemonstration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBBugDemonstration.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +52,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D4399B9FED8AA40E0FD3CA9 /* Pods_FBBugDemonstration.framework in Frameworks */,
-				EA8CB96BB3AF0D05E444A5F6 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				C2EA642912A3D33460521B10 /* Pods_FBBugDemonstration.framework */,
-				22CE4F0AB128B169BED82899 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -13,7 +13,7 @@ public class TestClass: NSObject {
 	
 	public static func doStuff()
 	{
-		FBSDKUtility.dictionaryWithQueryString("lol")
+		FBSDKUtility.dictionaryWithQueryString("foo")
 	}
 	
 }
