@@ -1,1 +1,0 @@
-MOSOCIAL_OTHER_LDFLAGS = -framework "Accounts" -framework "MessageUI" -framework "Social" -framework "Twitter" -framework "UIKit"
