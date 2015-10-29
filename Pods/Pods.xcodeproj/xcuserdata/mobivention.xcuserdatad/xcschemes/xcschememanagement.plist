@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MOSocial.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-FBBugDemonstration.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4F0954F3FD4B1DB4DF0D421329A13CB6</key>
+		<key>1C8DC8F03B0ED185020AEAC3D8B81A5C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A141BD79A000137CB258D3F5330F28C</key>
+		<key>92C7E8A23973F33686E9A187E23305A3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>80DE959B9B853F75D1B4860BE95C866D</key>
+		<key>966358974451E03CA5D2D64A675B00A3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A5EC252AA5AD514DB36BB8FDC437237D</key>
+		<key>A08BCB34083EFD285F62C9D019ABE84A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E34724078EFB57A7433EB4CB9EE60E10</key>
+		<key>B069E8DE4318FA221724603A578A21FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C91D9D7626D63D7523D404F807F0D6BC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

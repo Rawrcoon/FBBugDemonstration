@@ -1,0 +1,6 @@
+framework module MOSocial {
+  umbrella header "MOSocial-umbrella.h"
+
+  export *
+  module * { export * }
+}

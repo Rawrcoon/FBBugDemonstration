@@ -56,10 +56,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-FBBugDemonstration/FBSDKCoreKit.framework'
   install_framework 'Pods-FBBugDemonstration/FBSDKLoginKit.framework'
   install_framework 'Pods-FBBugDemonstration/FBSDKShareKit.framework'
+  install_framework 'Pods-FBBugDemonstration/MOSocial.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-FBBugDemonstration/Bolts.framework'
   install_framework 'Pods-FBBugDemonstration/FBSDKCoreKit.framework'
   install_framework 'Pods-FBBugDemonstration/FBSDKLoginKit.framework'
   install_framework 'Pods-FBBugDemonstration/FBSDKShareKit.framework'
+  install_framework 'Pods-FBBugDemonstration/MOSocial.framework'
 fi
